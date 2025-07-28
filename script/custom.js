@@ -126,12 +126,13 @@ navItems.forEach(item => {
 /* ######## portfolio ######## */
 const projectLists = [
   {
+    id : "movie",
     title: "Movie 306",
     titleMain: "영화 사이트 프로젝트",
     titleSub: "TMDB API를 활용하여 영화에 대한, <br> 리뷰, 정보를 제공하는 사이트를 제작했습니다.",
-    skills: ["VS Code", "HTML5", "react", "SCSS"],
+    skills: ["VS Code", "HTML5", "React", "SCSS"],
     tags: ["개인", "반응형", "React Bootstrap"],
-    option: "solo",
+    option: "Solo",
     design: "Figma",
     impact: "100%",
     gitUrl: "https://github.com/ham-49/movie",
@@ -146,12 +147,13 @@ const projectLists = [
     designLink: "https://www.figma.com/design/9BUnz6DkhRflJLlbSQhCGa/movie?node-id=5-118&m=dev&t=VKhXr858lX1YK3nI-1"
   },
   {
+    id : "jeongdong",
     title: "정동야행",
     titleMain: "정동야행 클론코딩 프로젝트",
     titleSub: "정동야행 사이트의 다양한 이벤트를, <br> script Library로 클론 코딩 사이트를 제작하였습니다.",
     skills: ["VS Code", "HTML5", "SCSS", "JavaScript"],
     tags: ["개인", "반응형", "클론코딩"],
-    option: "solo",
+    option: "Solo",
     design: "Figma",
     impact: "100%",
     gitUrl: "https://github.com/ham-49/jeongdong-culturenight",
@@ -166,12 +168,13 @@ const projectLists = [
     designLink: "https://www.figma.com/design/WMhNsUUVMMMZGFUHK4mNig/%EC%A0%95%EB%8F%99%EC%95%BC%ED%96%89-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=0-1&m=dev&t=e8yod5wjTuZrxfvl-1"
   },
   {
+    id : "weather",
     title: "날씨웹",
     titleMain: "날씨 웹 프로젝트",
     titleSub: "openweather API를 활용하여 <br> 실시간 날씨 정보를 보여주는 웹을 설계하였습니다.",
-    skills: ["VS Code", "HTML5", "react", "CSS"],
+    skills: ["VS Code", "HTML5", "React", "CSS"],
     tags: ["개인", "반응형", "React"],
-    option: "solo",
+    option: "Solo",
     design: "Figma",
     impact: "100%",
     gitUrl: "https://github.com/ham-49/weather",
@@ -186,14 +189,15 @@ const projectLists = [
     designLink: "https://www.figma.com/design/0vwPwwWuKwiQBdCc5w0c3P/%EB%82%A0%EC%94%A8API?node-id=0-1&m=dev&t=EdZxsXANRGDt2PTy-1"
   },
   {
+    id : "knotted",
     title: "Knotted",
     titleMain: "노티드 일체형 페이지 리뉴얼",
     titleSub: "다양한 레이아웃으로 브렌드의 가치를 살리며, <br> 직관적으로 이용할 수 있는 사이트를 제작하였습니다.",
     skills: ["VS Code", "HTML5", "SCSS", "JavaScript"],
     tags: ["팀", "반응형"],
-    option: "team",
+    option: "Team",
     design: "Figma",
-    impact: "100%",
+    impact: "40%",
     gitUrl: "https://github.com/ham-49/Knotted",
     pageUrl: "https://ham-49.github.io/Knotted/",
     thumImg: "image/knotted-thum.png",
@@ -206,14 +210,15 @@ const projectLists = [
     designLink: "https://www.figma.com/design/XptJ3xqQf0KaSSnmCPcYKM/%EB%85%B8%ED%8B%B0%EB%93%9C-%EB%8F%84%EB%84%9B-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=0-1&m=dev&t=vqZ8Ea5vsH88OqCj-1"
   },
   {
+    id : "aquarium",
     title: "롯데 아쿠아리움",
     titleMain: "롯데 아쿠아리움 페이지 리뉴얼",
     titleSub: "아쿠아리움의 생동감을 시각적으로 구현하고, <br> 브랜드의 이미지를 담아낸 리뉴얼 페이지를 설계했습니다.",
     skills: ["VS Code", "HTML5", "SCSS", "JavaScript"],
     tags: ["팀", "반응형"],
-    option: "team",
+    option: "Team",
     design: "Figma",
-    impact: "100%",
+    impact: "50%",
     gitUrl: "https://github.com/ham-49/aquarium",
     pageUrl: "https://ham-49.github.io/aquarium/",
     thumImg: "image/aquarium-thum.png",
@@ -226,12 +231,13 @@ const projectLists = [
     designLink: "https://www.figma.com/file/cYRyXXyj2RU8S13r8s38OI/Plan-A?node-id=90-2"
   },
   {
+    id : "inflearn",
     title: "인프런",
     titleMain: "인프런 페이지 리뉴얼",
     titleSub: "온라인 강의 플랫폼의 콘텐츠 다양성을 효과적으로 <br> 표현하기 위해, 다양한 레이아웃으로 구성하였습니다.",
     skills: ["VS Code", "HTML5", "SCSS", "JavaScript"],
     tags: ["개인", "반응형"],
-    option: "solo",
+    option: "Solo",
     design: "Figma",
     impact: "100%",
     gitUrl: "https://github.com/ham-49/inflearn",
@@ -245,12 +251,13 @@ const projectLists = [
     designLink: "https://www.figma.com/design/zqwy2JwjfrYaDrtlbxs8t3/%EC%9D%B8%ED%94%84%EB%9F%B0%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=11-1020&m=dev&t=MoDOXHqkXpH0lpSy-1"
   },
   {
+    id : "kipi",
     title: "한국 특허정보원",
     titleMain: "한국 특허정보원 페이지 리뉴얼",
     titleSub: "다양한 이용자가 쉽게 정보를 찾을 수 있도록 <br> 직관적인 공공기관 사이트로 리뉴얼하고자 합니다.",
     skills: ["VS Code", "HTML5", "SCSS", "CSS", "JavaScript"],
     tags: ["개인", "반응형"],
-    option: "solo",
+    option: "Solo",
     design: "Figma",
     impact: "100%",
     gitUrl: "https://github.com/ham-49/KIPI_Project",
@@ -285,7 +292,7 @@ function renderProjects(data) {
 
   currentItems.forEach((list, index) => {
     let Cards = document.createElement('div');
-    Cards.className = 'portfolio-Card';
+    Cards.className = `portfolio-Card ${list.id}`;
     Cards.innerHTML = `
       <div class="card-img">
         <img src="${list.thumImg}" alt="${list.title}">
@@ -343,10 +350,14 @@ function renderPagination(data) {
 
   const totalPages = Math.ceil(data.length / itemPage);
 
+  // 무조건 1페이지 이상이면 페이지네이션 표시
   if (totalPages <= 1) {
     pagination.style.display = "none";
     return;
+  } else {
+    pagination.style.display = "flex";
   }
+
   for (let i = 1; i <= totalPages; i++) {
     let btn = document.createElement('button');
     btn.textContent = i;
@@ -361,25 +372,61 @@ function renderPagination(data) {
 
 
 /* 필터링 함수 */
+let optionTypes = ['Solo', 'Team'];
+let skillTypes = ['html5', 'css', 'scss', 'javascript', 'react'];
+
+checkItem.forEach(cb => {
+  cb.addEventListener('change', (e) => {
+    const value = e.target.value.toLowerCase();
+
+    // 스킬은 하나만 선택 가능하도록 처리
+    if (skillTypes.includes(value)) {
+      checkItem.forEach(other => {
+        if (other !== e.target && skillTypes.includes(other.value.toLowerCase())) {
+          other.checked = false;
+        }
+      });
+    }
+
+    filterProjects();
+  });
+});
+
 function filterProjects() {
   let selected = Array.from(checkItem)
     .filter(cb => cb.checked)
     .map(cb => cb.value.toLowerCase());
 
-  let OPTION_TYPES = ['solo', 'team'];
-  let SKILL_TYPES = ['html5', 'css', 'scss', 'javascript', 'react'];
+  let selectedOptions = selected.filter(val => optionTypes.includes(val));
+  let selectedSkills = selected.filter(val => skillTypes.includes(val));
 
-  let selectedOptions = selected.filter(val => OPTION_TYPES.includes(val));
-  let selectedSkills = selected.filter(val => SKILL_TYPES.includes(val));
+  // 스킬은 하나만 유지
+  if (selectedSkills.length > 1) {
+    const lastChecked = Array.from(checkItem)
+      .reverse()
+      .find(cb => selectedSkills.includes(cb.value.toLowerCase()));
+
+    checkItem.forEach(cb => {
+      if (SKILL_TYPES.includes(cb.value.toLowerCase()) && cb !== lastChecked) {
+        cb.checked = false;
+      }
+    });
+
+    selectedSkills = [lastChecked.value.toLowerCase()];
+  }
 
   filteredProjects = projectLists.filter(({ option, skills }) => {
-    let optionMatch = selectedOptions.length === 0 || selectedOptions.includes(option.toLowerCase());
-    let normalizedSkills = skills.map(skill => skill.toLowerCase());
-    let skillMatch = selectedSkills.length === 0 || selectedSkills.every(skill => normalizedSkills.includes(skill));
+    const optionMatch =
+      selectedOptions.length === 0 || selectedOptions.includes(option.toLowerCase());
+
+    const normalizedSkills = skills.map(skill => skill.toLowerCase());
+    const skillMatch =
+      selectedSkills.length === 0 || selectedSkills.every(skill => normalizedSkills.includes(skill));
+
     return optionMatch && skillMatch;
   });
 
-  currentPage = 1; // 필터 변경 시 첫 페이지로
+  currentPage = 1;
   renderProjects(filteredProjects);
 }
 
@@ -436,7 +483,8 @@ function renderPopup(data) {
       <div class="text-container">
         <div class="planner text-wrap">
           <h6>작업 환경</h6>
-          <p><span>개발환경 :</span> ${data.option}</p>
+          <p><span>구분 :</span> ${data.option}</p>
+          <p><span>스킬 :</span> ${data.skills.map(skill=> `${skill}`).join (', ')}</p>
           <p><span>디자인 설계 :</span> ${data.design}</p>
           <p><span>기여도 :</span> ${data.impact}</p>
         </div>
