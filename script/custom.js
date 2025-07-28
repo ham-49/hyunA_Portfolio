@@ -148,7 +148,7 @@ const projectLists = [
     popupInfo: "기획, 디자인, 웹 퍼플리싱 참여 (개인프로젝트)",
     mainList: ["메인페이지 전체"],
     SubList: ["movie","My Page", "Login", "404"],
-    /* plannerLink: , */
+    plannerLink: "/hyunA_Portfolio/pdf/영화사이트기획서.pdf",
     designLink: "https://www.figma.com/design/9BUnz6DkhRflJLlbSQhCGa/movie?node-id=5-118&m=dev&t=VKhXr858lX1YK3nI-1"
   },
   {
