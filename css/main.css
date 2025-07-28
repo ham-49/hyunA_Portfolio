@@ -1706,10 +1706,10 @@ footer .footer-copyright {
     left: 50%;
   }
   .Skills .skills-content .skills-left .skill-wrap .skill-items .skill-item-wrap.skill-office .info-bottom-item:nth-child(3) .item-balloon {
-    left: 0;
+    left: -200%;
   }
   .Skills .skills-content .skills-left .skill-wrap .skill-items .skill-item-wrap.skill-office .info-bottom-item:nth-child(3) .item-balloon::before {
-    left: 10%;
+    left: 75%;
   }
   .Skills .skills-content .skills-left .certificates-wrap .career-item {
     width: 100%;
