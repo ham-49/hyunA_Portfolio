@@ -297,9 +297,9 @@
                   }
                   &:nth-child(3){
                     .item-balloon{
-                      left: 0;
+                      left: -200%;
                       &::before{
-                        left: 10%;
+                        left: 75%;
                       }
                     }
                   }
