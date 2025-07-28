@@ -60,6 +60,7 @@ let intro = document.querySelector(".intro");
 let aboutMe = document.querySelector("#aboutMe");
 let nav = document.querySelector(".nav");
 let navItems = document.querySelectorAll(".nav-item");
+let topBtn = document.querySelector(".goToTop");
 
 /* 초기값 */
 let navShown = false;
@@ -89,11 +90,15 @@ window.addEventListener("scroll", () => {
   if (introBottom > 0 && navShown) {
     nav.style.opacity = "0";
     navShown = false;
+    topBtn.style.opacity = "0";
+    topBtn.style.display = "none";
   } 
   // 인트로 영역 벗어나면 nav 보여주기
   else if (introBottom <= 0 && !navShown) {
     nav.style.opacity = "1";
     navShown = true;
+    topBtn.style.opacity = "1";
+    topBtn.style.display = "flex";
   }
 
   // nav 색상 변경
