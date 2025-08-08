@@ -377,7 +377,7 @@ function renderPagination(data) {
 
 
 /* 필터링 함수 */
-let optionTypes = ['Solo', 'Team'];
+let optionTypes = ['solo', 'team'];
 let skillTypes = ['html5', 'css', 'scss', 'javascript', 'react'];
 
 checkItem.forEach(cb => {
@@ -522,3 +522,4 @@ checkItem.forEach(cb => cb.addEventListener('change', filterProjects));
 
 /*  초기 전체 프로젝트 보여주기  */
 renderProjects(projectLists);
+
